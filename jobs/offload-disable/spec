@@ -1,0 +1,12 @@
+---
+name: offload-disable
+description: "Disable TCP checksum and LSO offload on Windows"
+templates:
+  pre-start.ps1: bin/pre-start.ps1
+
+packages: []
+
+properties:
+  disable:
+    description: "If false this job will do nothing"
+    default: true
